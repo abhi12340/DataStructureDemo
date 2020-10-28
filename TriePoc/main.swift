@@ -40,7 +40,7 @@ func =~(lhs : [Int] , rhs : [Int]) -> [Int] {
 let result = [40, 90 , 80, 30 , 89 ] =~ [50 , 90 , 78 , 67]
 print(result)
 
-let array = ["abhishek", "aditi" , "shikar", "Neha" , "akansha" , "divya", "mahendra"]
+let array = ["abhishek", "Tezi", "aditi" , "shikar", "Neha" , "akansha" , "divya", "mahendra"]
 extension String {
     func filterTheValue(with predicate : NSPredicate) -> Bool{
         return predicate.evaluate(with: self)
@@ -83,7 +83,7 @@ func searchForString<T : Equatable>(input : T , from genericArray : [T]) -> Int?
 
 
 
-print("Generic result :- \(searchForString(input: "abhishek", from: ["mukul", "mahendra" , "abhishek" , "shikar" , "jeevan", "Tezi"])!)")
+print("Generic result :- \(searchForString(input: "abhishek", from: ["Tezi","mukul", "mahendra" , "abhishek" , "shikar" , "jeevan"])!)")
 
 
 protocol Container {
