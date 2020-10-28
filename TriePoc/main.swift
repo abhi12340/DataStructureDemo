@@ -83,7 +83,7 @@ func searchForString<T : Equatable>(input : T , from genericArray : [T]) -> Int?
 
 
 
-print("Generic result :- \(searchForString(input: "abhishek", from: ["mukul", "mahendra" , "abhishek" , "shikar" , "jeevan"])!)")
+print("Generic result :- \(searchForString(input: "abhishek", from: ["mukul", "mahendra" , "abhishek" , "shikar" , "jeevan", "Tezi"])!)")
 
 
 protocol Container {
